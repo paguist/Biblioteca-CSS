@@ -1,0 +1,149 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos de Contenedor */
+.container {
+    width: 100%;
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    padding: 0 20px; /* Espacio de relleno interior */
+}
+
+/* Estilos de Texto */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Color de texto predeterminado */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px; /* Espacio inferior entre títulos y elementos */
+}
+
+/* Estilos de Botones */
+.button {
+    display: inline-block;
+    padding: 10px 20px; /* Espacio de relleno vertical y horizontal */
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff; /* Color de texto */
+    background-color: #007bff; /* Color de fondo del botón */
+    border: none;
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer;
+}
+
+
+/* Estilos de Enlaces */
+a {
+    color: #007bff; /* Color de enlace predeterminado */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor */
+}
+
+/* Estilos de Imágenes */
+img {
+    max-width: 100%; /* Imágenes responsivas */
+    height: auto;
+}
+
+/* Estilos de Secciones */
+.section {
+    padding: 40px 0; /* Espacio de relleno superior e inferior */
+}
+
+/* Estilos de Barra de Navegación */
+.navbar {
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    padding: 10px 0; /* Espacio de relleno superior e inferior */
+}
+.navbar-nav {
+    list-style: none; /* Eliminar viñetas de la lista */
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 10px 20px; /* Espacio de relleno vertical y horizontal */
+    color: #fff; /* Color de texto del enlace */
+    text-decoration: none;
+}
+
+/* Estilos de Formularios */
+.form-group {
+    margin-bottom: 20px; /* Espacio inferior entre grupos de formulario */
+}
+
+/* Estilos de Tablas */
+.table {
+    width: 100%;
+    border-collapse: collapse; /* Colapsar bordes de la tabla */
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #ccc; /* Borde de celdas */
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2; /* Color de fondo de encabezados */
+    font-weight: bold;
+}
+
+/* Estilos de Contenedor Flex */
+.flex-container {
+    display: flex;
+}
+
+/* Estilos de Contenedor Flex con Dirección de Columna */
+.flex-container.column {
+    flex-direction: column;
+}
+
+/* Estilos de Elemento Flex */
+.flex-item {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    margin: 10px; /* Margen entre elementos flexibles */
+}
+
+/* Estilos de Elemento Flex con Justificación al Centro */
+.flex-item.center {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos de Elemento Flex con Alineación al Centro */
+.flex-item.middle {
+    align-items: center;
+}
+
+/* Estilos de Elemento Flex con Alineación a la Derecha */
+.flex-item.right {
+    justify-content: flex-end;
+}
+
+/* Estilos de Elemento Flex con Alineación Abajo */
+.flex-item.bottom {
+    align-items: flex-end;
+}
+
+/* Estilos de Elemento Flex con Alineación Espaciada */
+.flex-item.space-between {
+    justify-content: space-between;
+}
+
+/* Estilos de Elemento Flex con Alineación Distribuida */
+.flex-item.space-around {
+    justify-content: space-around;
+}
+
